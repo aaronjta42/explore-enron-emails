@@ -15,7 +15,18 @@ Expects directory `./maildir`to hold unzipped dataset from above link.
 
 Tensorboard logs, neural network model/weights/loss/accuracy files from training stored under `./logs`.
 
-
+*Future Work:*
+1) We attempt to only use `sent` mail from users.  Add more emails besides these.
+2) Due to (1), we ignore two users.  Add these two users in.
+3) Since number of emails varies by user, try weighting each class (user) by their email usage.
+4) Try bayes
+5) Try SVM
+6) Try decision trees
+7) Cross-validate.  Similar to link (4) below.
+8) Try forming weights matrix by doc2vec as weights of embedding layer in neural network classifier.  Similar in theory to link (2) below.
+9) Visualize weights.
+10) Play with hyperparameters of doc2vec model.  Goes along with (7) above.
+11) Play with hyperparameters of neural network classifier.  Goes along with (7) above.
 
 *Useful resources*:
 1) http://linanqiu.github.io/2015/10/07/word2vec-sentiment/
@@ -31,4 +42,3 @@ Auxillary Resources:
 4) https://github.com/RaRe-Technologies/gensim/blob/develop/docs/notebooks/doc2vec-IMDB.ipynb
 5) https://medium.com/@williamkoehrsen/machine-learning-with-python-on-the-enron-dataset-8d71015be26d
 6) https://medium.com/@klintcho/doc2vec-tutorial-using-gensim-ab3ac03d3a1
-
