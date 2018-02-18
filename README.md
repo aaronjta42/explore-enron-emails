@@ -28,17 +28,17 @@ Tensorboard logs, neural network model/weights/loss/accuracy files from training
 10) Play with hyperparameters of doc2vec model.  Goes along with (7) above.
 11) Play with hyperparameters of neural network classifier.  Goes along with (7) above.
 12) Try kaggle's version of the dataset (may be cleansed/more uniform)
-13) Try approaches covered under (5) of `Auxillary` resources below
-14) Try approaches covered under (6) of `Auxillary` resources below
+13) Try approaches covered under (1), (3)-(6)`Auxillary` resources below
+14) Try any missing approaches from (1) and (2) from `Primary` resources below
 
-*Primary resources*:
+*Primary resources:*
 1) http://linanqiu.github.io/2015/10/07/word2vec-sentiment/
 2) https://blog.keras.io/using-pre-trained-word-embeddings-in-a-keras-model.html
 3) https://stackoverflow.com/questions/48842866/gensim-models-doc2vec-has-no-attribute-labeledsentence
 4) https://machinelearningmastery.com/multi-class-classification-tutorial-keras-deep-learning-library/
 5) https://stackoverflow.com/questions/46197493/using-gensim-doc2vec-with-keras-conv1d-valueerror
 
-Auxillary Resources:
+*Auxillary Resources:*
 1) https://ahmedbesbes.com/sentiment-analysis-on-twitter-using-word2vec-and-keras.html
 2) https://www.kaggle.com/zichen/explore-enron/data
 3) https://en.wikipedia.org/wiki/Word2vec#cite_note-doc2vec_java-11
