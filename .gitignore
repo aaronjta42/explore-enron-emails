@@ -1,0 +1,10 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+*.npy
+*.hf5
+*.png
+*.jpg
+*.pyc
+.idea*
+maildir/
+parsed_data/

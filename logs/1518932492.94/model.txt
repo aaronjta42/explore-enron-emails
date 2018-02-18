@@ -1,0 +1,51 @@
+Model Structure:
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+dense_1 (Dense)              (None, 148)               44548     
+_________________________________________________________________
+activation_1 (Activation)    (None, 148)               0         
+_________________________________________________________________
+batch_normalization_1 (Batch (None, 148)               592       
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 148)               0         
+_________________________________________________________________
+dense_2 (Dense)              (None, 148)               22052     
+_________________________________________________________________
+activation_2 (Activation)    (None, 148)               0         
+=================================================================
+Total params: 67,192
+Trainable params: 66,896
+Non-trainable params: 296
+_________________________________________________________________
+
+
+========================================================
+
+
+Model Configuration:
+
+Layer 0:
+
+{"kernel_initializer": {"class_name": "VarianceScaling", "config": {"distribution": "uniform", "scale": 1.0, "seed": null, "mode": "fan_avg"}}, "name": "dense_1", "kernel_constraint": {"class_name": "MaxNorm", "config": {"max_value": Infinity, "axis": 0}}, "bias_regularizer": null, "bias_constraint": null, "dtype": "float32", "activation": "linear", "trainable": true, "kernel_regularizer": {"class_name": "L1L2", "config": {"l2": 0.0, "l1": 0.0}}, "bias_initializer": {"class_name": "Zeros", "config": {}}, "units": 148, "batch_input_shape": [null, 300], "use_bias": true, "activity_regularizer": null}
+
+Layer 1:
+
+{"activation": "relu", "trainable": true, "name": "activation_1"}
+
+Layer 2:
+
+{"gamma_initializer": {"class_name": "Ones", "config": {}}, "moving_mean_initializer": {"class_name": "Zeros", "config": {}}, "name": "batch_normalization_1", "epsilon": 0.001, "trainable": true, "center": true, "moving_variance_initializer": {"class_name": "Ones", "config": {}}, "beta_initializer": {"class_name": "Zeros", "config": {}}, "scale": true, "gamma_regularizer": null, "gamma_constraint": null, "beta_constraint": null, "beta_regularizer": null, "momentum": 0.99, "axis": -1}
+
+Layer 3:
+
+{"noise_shape": null, "rate": 0.5, "trainable": true, "seed": null, "name": "dropout_1"}
+
+Layer 4:
+
+{"kernel_initializer": {"class_name": "VarianceScaling", "config": {"distribution": "uniform", "scale": 1.0, "seed": null, "mode": "fan_avg"}}, "name": "dense_2", "kernel_constraint": {"class_name": "MaxNorm", "config": {"max_value": Infinity, "axis": 0}}, "bias_regularizer": null, "bias_constraint": null, "activation": "linear", "trainable": true, "kernel_regularizer": {"class_name": "L1L2", "config": {"l2": 0.0, "l1": 0.0}}, "bias_initializer": {"class_name": "Zeros", "config": {}}, "units": 148, "use_bias": true, "activity_regularizer": null}
+
+Layer 5:
+
+{"activation": "softmax", "trainable": true, "name": "activation_2"}
+
