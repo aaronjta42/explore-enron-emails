@@ -3,16 +3,15 @@ Deep learning and doc2vec exploration of enron email dataset: https://www.cs.cmu
 
 Expects directory called maildir at root of project and to equal unzipped dataset from above link.
 
+**To run:**
 
-To run:
+1) download dataset: https://www.cs.cmu.edu/~enron/
 
-0) download dataset: https://www.cs.cmu.edu/~enron/
+2) *python train_doc2vec.py* (with `should_create_data = True` on first run)
 
-1) *python train_doc2vec.py* (with `should_create_data = True` on first run)
+3) *python inference_doc2vec.py* (for sanity check that doc2vec operates correctly)
 
-2) *python inference_doc2vec.py* (for sanity check that doc2vec operates correctly)
-
-3) *python train_nn.py* (wiht `should_aggregate_data = True` on first run)
+4) *python train_nn.py* (wiht `should_aggregate_data = True` on first run)
 
 Tensorboard ogs, neural network model/weights/loss/accuracy files from training stored under `./logs`.
 
