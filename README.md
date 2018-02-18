@@ -22,13 +22,13 @@ Tensorboard logs, neural network model/weights/loss/accuracy files from training
 2) https://blog.keras.io/using-pre-trained-word-embeddings-in-a-keras-model.html
 3) https://stackoverflow.com/questions/48842866/gensim-models-doc2vec-has-no-attribute-labeledsentence
 4) https://machinelearningmastery.com/multi-class-classification-tutorial-keras-deep-learning-library/
+5) https://stackoverflow.com/questions/46197493/using-gensim-doc2vec-with-keras-conv1d-valueerror
 
 Auxillary Resources:
 1) https://ahmedbesbes.com/sentiment-analysis-on-twitter-using-word2vec-and-keras.html
-2) https://stackoverflow.com/questions/46197493/using-gensim-doc2vec-with-keras-conv1d-valueerror
-3) https://www.kaggle.com/zichen/explore-enron/data
-4) https://en.wikipedia.org/wiki/Word2vec#cite_note-doc2vec_java-11
-5) https://github.com/RaRe-Technologies/gensim/blob/develop/docs/notebooks/doc2vec-IMDB.ipynb
-6) https://medium.com/@williamkoehrsen/machine-learning-with-python-on-the-enron-dataset-8d71015be26d
-7) https://medium.com/@klintcho/doc2vec-tutorial-using-gensim-ab3ac03d3a1
+2) https://www.kaggle.com/zichen/explore-enron/data
+3) https://en.wikipedia.org/wiki/Word2vec#cite_note-doc2vec_java-11
+4) https://github.com/RaRe-Technologies/gensim/blob/develop/docs/notebooks/doc2vec-IMDB.ipynb
+5) https://medium.com/@williamkoehrsen/machine-learning-with-python-on-the-enron-dataset-8d71015be26d
+6) https://medium.com/@klintcho/doc2vec-tutorial-using-gensim-ab3ac03d3a1
 
