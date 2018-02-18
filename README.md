@@ -13,7 +13,7 @@ Expects directory `./maildir`to hold unzipped dataset from above link.
 
 4) *python train_nn.py* (wiht `should_aggregate_data = True` on first run)
 
-Tensorboard ogs, neural network model/weights/loss/accuracy files from training stored under `./logs`.
+Tensorboard logs, neural network model/weights/loss/accuracy files from training stored under `./logs`.
 
 
 
