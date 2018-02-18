@@ -27,6 +27,9 @@ Tensorboard logs, neural network model/weights/loss/accuracy files from training
 9) Visualize weights.
 10) Play with hyperparameters of doc2vec model.  Goes along with (7) above.
 11) Play with hyperparameters of neural network classifier.  Goes along with (7) above.
+12) Try kaggle's version of the dataset (may be cleansed/more uniform)
+13) Try approaches covered under (5) of `Auxillary` resources below
+14) Try approaches covered under (6) of `Auxillary` resources below
 
 *Primary resources*:
 1) http://linanqiu.github.io/2015/10/07/word2vec-sentiment/
