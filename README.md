@@ -28,7 +28,7 @@ Tensorboard logs, neural network model/weights/loss/accuracy files from training
 10) Play with hyperparameters of doc2vec model.  Goes along with (7) above.
 11) Play with hyperparameters of neural network classifier.  Goes along with (7) above.
 
-*Useful resources*:
+*Primary resources*:
 1) http://linanqiu.github.io/2015/10/07/word2vec-sentiment/
 2) https://blog.keras.io/using-pre-trained-word-embeddings-in-a-keras-model.html
 3) https://stackoverflow.com/questions/48842866/gensim-models-doc2vec-has-no-attribute-labeledsentence
